@@ -1,5 +1,6 @@
 ---
 title: 比特股Web钱包搭建以及接入到私有链
+tags: [比特股,bitshares,钱包,wallet]
 ---
 
 BitShares-UI是比特股轻钱包，BitShares API 由 witness_node 程序提供。比特股钱包有两种模式：钱包模式和账号模式，后面再具体阐述这两种模式的区别
@@ -64,10 +65,10 @@ http://localhost:8080
 
 # 3.钱包接入到私有链
 上述步奏已经完成了比特股钱包的搭建，并接入到公有链中，那么如何将钱包接入的自己搭建的私有链中呢，其实很简单，在当前打开的钱包中点击Settings->Access 点击Add node,如下图所示：
-![image](https://note.youdao.com/yws/public/resource/f79ef4b740609e25bf85482cabc3e735/xmlnote/C98E1318DA934D8F9D8C38CE7E630909/14605)
+![image](../images/add_node.png)
 
 添加完成之后选中新建的节点点击active,即激活使用本地节点了，如下图所显示：
-![image](https://note.youdao.com/yws/public/resource/f79ef4b740609e25bf85482cabc3e735/xmlnote/45D350CCF62C4D7D83D28565905A39FE/14607)
+![image](../images/save_node.png)
 
 点击Exlpore,看以看到本地节点生成的区块，可以通过cli-walletz执行转账，验证区块是否将建议打包，可以多转几次：
 
@@ -75,6 +76,6 @@ http://localhost:8080
 unlocked >>> transfer nathan alpha 2 BTS "here is some cash" true
 ```
 从下图可以看到，下次区块产生的时候，交易已经被验证了：
-![image](https://note.youdao.com/yws/public/resource/f79ef4b740609e25bf85482cabc3e735/xmlnote/82CC456AAA7B45F1ABB68C30AEB51861/14606)
+![image](../images/success.png)
 
 从而验证钱包已经接入到私有链了，账户注册需要搭建水龙头服务，后面待续。
