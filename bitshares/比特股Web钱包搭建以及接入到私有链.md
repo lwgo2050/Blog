@@ -1,11 +1,13 @@
 ---
 title: 比特股Web钱包搭建以及接入到私有链
-tags: [比特股,bitshares,钱包,wallet]
+subtitle: wallet
+tags: [区块链,比特股,bitshares,钱包,wallet]
+date: 2017-1-22
 ---
 
 BitShares-UI是比特股轻钱包，BitShares API 由 witness_node 程序提供。比特股钱包有两种模式：钱包模式和账号模式，后面再具体阐述这两种模式的区别
 
-
+<!-- more-->
 # 1.依赖环境配置
 BitShares-UI 依赖于 Node.js v6 以上版本，通过nvm可以很方便的管理node版本，执行如下命令
 安装NVM以及V6:
