@@ -1,6 +1,6 @@
 ---
-title: Ethermint私有连搭建-多节点网络.md
-subtitle: Ethermint私有连搭建-多节点网络
+title: Ethermint私有链搭建-多节点网络
+subtitle: Ethermint私有链搭建-多节点网络
 tags: [ethermint,tendetmint,区块链,多节点]
 date: 2018-4-10
 ---

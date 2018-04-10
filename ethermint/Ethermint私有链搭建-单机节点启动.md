@@ -1,7 +1,7 @@
 ---
-title: Ethermint私有连搭建-单机节点启动.md
+title: Ethermint私有链搭建-单机节点启动
 subtitle: ethermint,tendetmint,private_net
-tags: [ethermint,tendetmint]
+tags: [ethermint,tendetmint,区块链]
 date: 2018-4-9
 ---
 
